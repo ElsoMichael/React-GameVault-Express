@@ -9,3 +9,12 @@ router.get('/signup', (req, res) => {
 
 router.post('/signup', (req, ress) => {
 });
+
+
+router.get('/login', (req, res) => {
+  res.render('/authentication/login');
+});
+
+router.post('/login', (req, res) => {
+
+});
